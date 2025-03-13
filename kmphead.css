@@ -1,0 +1,179 @@
+ html, body {
+            min-height: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-image: url("https://4kwallpapers.com/images/walls/thumbs_3t/2910.jpg");
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+            position: relative;
+            padding-bottom: 50px;
+        }
+
+        .content-wrapper {
+            min-height: 100vh;
+            position: relative;
+            z-index: 1;
+            padding-top: 80px;
+        }
+
+        .logout-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: red; /* Red color */
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    z-index: 101; /* Ensure it's above other elements */
+}
+
+.logout-button:hover {
+    background-color: darkred; /* Darker red on hover */
+}
+        .top-header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 15px 0;
+            text-align: center;
+            z-index: 100;
+        }
+
+        .form-title {
+            margin: 0;
+            font-size: 28px;
+            color: #333;
+        }
+
+.button-box {
+    background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    width: 100%; /* Make the box full width */
+    text-align: center; /* Center-align the heading */
+}
+
+.button-box h2 {
+    margin-bottom: 20px; /* Add space below the heading */
+    font-size: 1.5rem; /* Adjust heading size */
+    color: #333; /* Darker text color for better visibility */
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%; /* Make the container full width */
+    padding: 0; /* Remove padding to ensure full width */
+}
+
+.button-container button {
+    padding: 15px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    flex: 1; /* Make buttons take equal space */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-align: center;
+}
+
+.button-container button.active {
+    background-color: darkblue;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.button-container button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+        /* Form container styling */
+        .form-container {
+            display: none;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            margin: 20px auto;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            width: 50%;
+            max-width: 600px;
+        }
+
+        .form-container.active {
+            display: block;
+        }
+
+        /* Form elements styling */
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #333;
+            text-align: left;
+        }
+
+        .form-control {
+    width: 100%;
+    padding: 16px; /* Increased padding for larger input boxes */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px; /* Increased font size for better readability */
+    box-sizing: border-box;
+    margin-bottom: 15px; /* Add space between input fields */
+}
+
+        .password-container {
+            position: relative;
+        }
+
+        .password-container .show-btn {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: none;
+            border: none;
+            color: #666;
+            cursor: pointer;
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-top: 10px;
+        }
+
+        .submit-btn:hover {
+            background-color: #45a049;
+        }
+        

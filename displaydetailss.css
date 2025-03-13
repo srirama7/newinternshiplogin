@@ -1,0 +1,178 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 20-Feb-2025, 2:47:11 pm
+    Author     : manjuv
+*/
+
+html, body {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-image: url("https://4kwallpapers.com/images/walls/thumbs_3t/2910.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed; /* This keeps the background fixed while scrolling */
+            min-height: 100vh; /* Ensures minimum height is the full viewport height */
+        }
+        
+         .button-container button {
+            padding: 15px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            flex: 1;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            text-align: center;
+        }
+
+        /* Logout Button */
+        .logout-button {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: red;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .logout-button:hover {
+            background-color: darkred;
+        }
+
+        /* Heading */
+        .white-heading {
+            color: white;
+            text-align: center;
+            font-size: 2rem;
+            margin: 0; /* Remove default margin */
+        }
+
+        /* Content Box */
+        .content-box {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            margin: 50px auto;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        /* Button Container */
+        .button-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            margin: 20px 0;
+            width: 100%;
+            padding: 0 20px;
+        }
+
+        .button-container button {
+            padding: 15px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            flex: 1;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            text-align: center;
+        }
+
+        .button-container button:hover {
+            background-color: #45a049;
+            transform: scale(1.05);
+        }
+
+        /* Highlight Active Button */
+        .button-container button.active {
+            background-color: darkblue !important;
+            color: white !important;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+        
+        /* Specific style for View Stored button when clicked */
+        .button-container button.view-stored-active {
+    background-color: purple !important;
+    color: white !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+        h2 {
+            margin-top: 20px;
+        }
+
+        table {
+            width: 90%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background: rgba(255, 255, 255, 0.9);
+            color: black;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+
+        th {
+            background: #4CAF50;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background: #f2f2f2;
+        }
+
+        .back-button {
+            background-color: #ff5722;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+            margin-top: 20px;
+            transition: 0.3s;
+            display: block;
+            margin: 20px auto;
+        }
+
+        .back-button:hover {
+            background-color: #e64a19;
+        }
+        .logout-button {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: red;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .logout-button:hover {
+            background-color: darkred;
+        }
